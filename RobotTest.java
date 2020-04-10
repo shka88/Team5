@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author (2018315030 이가영,2018315059 이와사키 메구미) 
  * @version (2020.04.10)
  */
-public class RobotTest
+public class RobotTest extends Robot
 {
     public static void main(String[] args){
         int speed = 5;
@@ -14,7 +14,7 @@ public class RobotTest
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
         
-        new Robot();
+        // new Robot();
         
         //RobotWalk(color,speed);
 
