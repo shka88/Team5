@@ -5,17 +5,17 @@ import java.util.Scanner;
  * @author (2018315030 이가영,2018315059 이와사키 메구미) 
  * @version (2020.04.10)
  */
-public class RobotTest extends Robot
+public class RobotTest
 {
     public static void main(String[] args){
-        double speed = 5.0;
+        //double speed = 5.0;
 
         System.out.println("교통신호의 상태는?");
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
         
-        Robot()
-        RobotWalk(color,speed);
+        //RobotWalk(color,speed);
+
 
     }
 }
