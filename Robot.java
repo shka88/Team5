@@ -7,16 +7,15 @@
  */
 public class Robot
 { 
-    double speed = 5.0;
     public static double RobotWalk(String color, double speed){
         if(color.equals("green")){
-            return (double)speed;
+            return speed;
         }
         else if(color.equals("yellow")){
-            return (double)speed*1.2 ;
+            return speed*1.2 ;
         }
         else{
-            return (double)speed;
+            return speed;
         }
     }
 }
