@@ -14,9 +14,8 @@ public class RobotTest extends Robot
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
         
-        // new Robot();
-        
         RobotWalk(color,speed);
 
     }
 }
+
