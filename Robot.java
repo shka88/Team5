@@ -1,4 +1,4 @@
-import java.util.Scanner;                               
+                               
 /**
  * 교통신호에 따라 RobotWalk 속도가 변경되는 프로그램
  * 
