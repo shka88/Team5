@@ -7,17 +7,6 @@ import java.util.Scanner;
  */
 public class Robot
 {
-    public static void main(String[] args){
-        int speed = 5;
-
-        System.out.println("교통신호의 상태는?");
-        Scanner scanner = new Scanner(System.in);
-        String color = scanner.next();
-
-        RobotWalk(color,speed);
-
-    }
-
     public static void  RobotWalk(String color, double speed){
         if(color.equals("green")){
             System.out.println(speed + "km/h로 보행을 계속합니다.");
