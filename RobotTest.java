@@ -9,7 +9,6 @@ public class RobotTest
 {
     public static void main(String[] args){
         //double speed = 5.0;
-
         System.out.println("교통신호의 상태는?");
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
