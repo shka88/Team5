@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class RobotTest extends Robot
 {
     public static void main(String[] args){
-        int speed = 5;
+        double speed = 5.0;
 
         System.out.println("교통신호의 상태는?");
         Scanner scanner = new Scanner(System.in);
