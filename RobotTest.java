@@ -13,8 +13,10 @@ public class RobotTest
         System.out.println("교통신호의 상태는?");
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
-
-        // RobotWalk(color,speed);
+        
+        new Robot();
+        
+        //RobotWalk(color,speed);
 
     }
 }
