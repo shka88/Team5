@@ -12,7 +12,7 @@ public class Robot
             return speed;
         }
         else if(color.equals("yellow")){
-            return speed*1.2 ;
+            return speed*1.2;
         }
         else{
             return speed;
