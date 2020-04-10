@@ -14,8 +14,8 @@ public class RobotTest
         Scanner scanner = new Scanner(System.in);
         String color = scanner.next();
         
-        //RobotWalk(color,speed);
 
+        //RobotWalk(color,speed);
 
     }
 }
