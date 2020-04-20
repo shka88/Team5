@@ -15,7 +15,7 @@ public class RobotTest
         String color = scanner.nextLine();
         
         Robot robot = new Robot();
-        System.out.println(robot.RobotWalk(color,speed) + "km/h");
+        //System.out.println(robot.RobotWalk(color,speed) + "km/h");
     }
 }
 
