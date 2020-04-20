@@ -7,5 +7,26 @@
  */
 public class Robot
 {
+    private String color;
+    private double speed;
     
+    public String getColor(){
+        return this.color;
+    }
+    
+    public double getSpeed(){
+        if((color.equals("green"))){
+        }
+        else
+        {
+            if(color.equals("yellow")){
+                speed = speed*1.2;
+            }
+            else
+            {
+                speed = 0;
+            }
+        }
+        return this.speed;
+    }
 }
