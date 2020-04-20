@@ -29,4 +29,9 @@ public class Robot
         }
         return this.speed;
     }
+    
+    public void setRobotWalk(String color,double speed){
+        this.color = color;
+        this.speed = speed;
+    }
 }
